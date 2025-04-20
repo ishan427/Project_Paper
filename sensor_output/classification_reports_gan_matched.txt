@@ -1,0 +1,89 @@
+
+==================================================
+Model: Random Forest
+==================================================
+              precision    recall  f1-score   support
+
+       fresh       0.52      0.58      0.55       200
+     spoiled       0.53      0.47      0.50       200
+
+    accuracy                           0.53       400
+   macro avg       0.53      0.52      0.52       400
+weighted avg       0.53      0.53      0.52       400
+
+Accuracy: 0.5250
+F1 Score: 0.4974
+CV Score: 0.5094 ± 0.0298
+
+
+
+==================================================
+Model: XGBoost
+==================================================
+              precision    recall  f1-score   support
+
+       fresh       0.51      0.54      0.52       200
+     spoiled       0.51      0.48      0.50       200
+
+    accuracy                           0.51       400
+   macro avg       0.51      0.51      0.51       400
+weighted avg       0.51      0.51      0.51       400
+
+Accuracy: 0.5100
+F1 Score: 0.4974
+CV Score: 0.5025 ± 0.0184
+
+
+
+==================================================
+Model: SVM
+==================================================
+              precision    recall  f1-score   support
+
+       fresh       0.55      0.50      0.52       200
+     spoiled       0.54      0.59      0.57       200
+
+    accuracy                           0.55       400
+   macro avg       0.55      0.55      0.55       400
+weighted avg       0.55      0.55      0.55       400
+
+Accuracy: 0.5475
+F1 Score: 0.5680
+CV Score: 0.5119 ± 0.0150
+
+
+
+==================================================
+Model: Gradient Boosting
+==================================================
+              precision    recall  f1-score   support
+
+       fresh       0.53      0.54      0.53       200
+     spoiled       0.53      0.53      0.53       200
+
+    accuracy                           0.53       400
+   macro avg       0.53      0.53      0.53       400
+weighted avg       0.53      0.53      0.53       400
+
+Accuracy: 0.5300
+F1 Score: 0.5276
+CV Score: 0.5131 ± 0.0369
+
+
+
+==================================================
+Model: Neural Network
+==================================================
+              precision    recall  f1-score   support
+
+       fresh       0.52      0.78      0.62       200
+     spoiled       0.55      0.27      0.36       200
+
+    accuracy                           0.53       400
+   macro avg       0.53      0.53      0.49       400
+weighted avg       0.53      0.53      0.49       400
+
+Accuracy: 0.5250
+F1 Score: 0.3624
+
+

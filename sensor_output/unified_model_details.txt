@@ -1,0 +1,30 @@
+==================================================
+UNIFIED FOOD FRESHNESS PREDICTION MODEL
+==================================================
+
+Best model: Random Forest
+F1 Score: 0.8495
+
+Model performance comparison:
+
+                   Accuracy  Precision    Recall  F1 Score   ROC AUC
+Random Forest      0.849057   0.852201  0.846875  0.849530  0.943139
+XGBoost            0.828616   0.828660  0.831250  0.829953  0.935567
+Gradient Boosting  0.820755   0.808383  0.843750  0.825688  0.931104
+SVM                0.801887   0.798462  0.810937  0.804651  0.899824
+Neural Network     0.797956   0.805423  0.789062  0.797159  0.910937
+
+Dataset information:
+Total samples: 6359
+  - spoiled: 3200 samples (50.32%)
+  - fresh: 3159 samples (49.68%)
+
+Top features by importance:
+  - pH: 0.2180
+  - VOC: 0.1572
+  - Core_Temp: 0.1330
+  - Ambient_Temp: 0.1314
+  - Gas: 0.1260
+  - CO: 0.1118
+  - Light: 0.0615
+  - Humidity: 0.0610
